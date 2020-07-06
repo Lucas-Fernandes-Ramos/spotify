@@ -1,0 +1,212 @@
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+     background: url(../img/capa.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #e84393, #6c5ce7);
+    background-attachment: fixed;
+}
+
+/*Barra de navegação*/
+nav.navbar-navegacao{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(130, 130, 247);
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+.divisor{
+    width: 1px;
+    background-color: white;
+    margin: 11px 12px;
+}
+
+.capa{
+    text-align: center;
+}
+
+
+
+
+h1{
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 900;
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+   -moz-border-radius: 500px;
+   text-transform: uppercase;
+  transition: background 0.6s, color 0.4;
+  padding: 15px 10px;
+
+}
+.btn-roxo{
+    background-color: #df6ea5;
+}
+.btn-roxo:hover{
+   color:white;
+   background-color: #f01880;
+}
+.btn-branco{
+  border: 2px solid white;
+}
+.btn-branco:hover{
+   color:black;
+   background-color:white;
+}
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#servicos h2, h3{
+color:rgb(148, 10, 148);
+}
+
+
+#recursos{
+   
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#recursos h2{
+    color: white;
+}
+#recursos h3{
+    color: white;
+}
+#recursos{
+    color: white;
+}  
+.albuns{
+    padding:  10px 0;
+   
+}
+
+.rotacionar{
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+
+
+ @media (max-width: 575.98px) {
+     h1{font-size: 3em;}
+     .btn-custom{
+         margin: 10px 15px;
+     }
+.minha-imagem{
+    display: none;
+   
+}
+
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    float: left;
+    margin: 0 5px;
+}
+
+footer{
+    background: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: gainsboro;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+   
+    width: 20%;
+
+}
+
+
+
+
+
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+     h1{font-size: 3em; }
+     .btn-custom{
+        margin: 10px 15px;
+    }
+    }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+     h1{font-size: 4em; }
+     .btn-custom{
+        margin: 0px 15px;
+}
+
+}
+ @media (min-width: 992px) and (max-width: 1199.98px) { h1{font-size: 5em; }}
+ @media (min-width: 1200px) { }
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
